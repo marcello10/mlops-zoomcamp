@@ -1,6 +1,6 @@
 # Directory for local configuration files
 .devcontainer/
-
+*.sh
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
