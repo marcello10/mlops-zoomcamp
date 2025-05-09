@@ -2,6 +2,7 @@
 .devcontainer/
 *.sh
 *.parquet
+rf_regression.bin
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
