@@ -1,3 +1,4 @@
+mlruns/
 # Directory for local configuration files
 .devcontainer/
 *.sh
