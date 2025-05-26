@@ -1,4 +1,6 @@
 mlruns/
+*.db
+.vscode/
 # Directory for local configuration files
 .devcontainer/
 *.sh
