@@ -2,6 +2,11 @@ mlruns/
 *.db
 .vscode/
 *.bin
+*.pkl
+*.html
+conda.yaml
+python-env.yaml
+MLmodel
 # Directory for local configuration files
 .devcontainer/
 *.sh
