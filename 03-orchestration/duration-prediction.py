@@ -81,7 +81,7 @@ def train_model(X_train, y_train, X_val, y_val, dv,year,month):
         y_pred = booster.predict(valid)
         rmse = root_mean_squared_error(y_val, y_pred)
         mlflow.log_metric("rmse", rmse)
-        preprocessor_path = f"models/preprocessor_{year}_{month}.b"
+        preprocessor_path = f"models/preprocessor_{year}_{month:02d}.b"
         with open(preprocessor_path, "wb") as f_out:
             pickle.dump(dv, f_out)
         mlflow.log_artifact(preprocessor_path, artifact_path="preprocessor")

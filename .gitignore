@@ -9,6 +9,7 @@ mlruns/
 **/*python_env.yaml
 **/*MLmodel
 *.txt
+mlartifacts/
 # Directory for local configuration files
 .devcontainer/
 *.sh
